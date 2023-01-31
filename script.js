@@ -23,7 +23,13 @@ let displayLink = document.querySelector(".display-link");
 
 // task 7: create and populate an array to store your image urls. Create three more arrays. One to store your song names, one for the artists, and a last one for the song links.
 
+let imageList = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Uew7Su_P7nPxpKf1z6icR83FtK_dOcTAnDrM4z8&s", "https://i.scdn.co/image/ab67616d0000b273db687db0afb257abdee10816", "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg", "https://i1.sndcdn.com/artworks-000120441602-w3vudp-t500x500.jpg","https://i.ebayimg.com/images/g/w7MAAOSwqUpjk1ME/s-l500.jpg", "https://www.rhino.com/sites/g/files/g2000012691/files/styles/article_image/public/2021-01/GREEN%20DAY%20AMERICAN%20IDIOTSSSSS%20.jpg?itok=dJQDO0kC", "https://m.media-amazon.com/images/I/51Ru9oLahBL._SY350_QL15_.jpg", "https://images.genius.com/ad23d0e90673a474b9f3a22b3efbdb41.1000x1000x1.png", "https://upload.wikimedia.org/wikipedia/en/9/9b/Metallica_-_Reload_cover.jpg", "https://i.scdn.co/image/ab67616d0000b273431ac6e6f393acf475730ec6"];
 
+songNameList = ["I Saw Her Standing There(Remastered 2009)","Blitzkrieg Bop(2016 Remaster)", "Master of Puppets", "Love Buzz", "Ballroom Blitz", "American Idiot", "Doorman", "Dracula", "Fuel", "Zero(Remastered 2012)"];
+
+artistList = ["The Beatles", "The Ramones", "Metallica", "Nirvana", "Sweet", "Green Day", "slowthai", "Bakar", "Metallica", "The Smashing Pumpkins"];
+
+songLinkList = [];
 
 
 

@@ -10,12 +10,12 @@ They will use .push to add new songs to their playlist. Then, students will refa
 
 
 ## Set-Up
-1. [ ] Fork your own copy of the repl.
-2. [ ] Double-check that you are signed in with your GitHub account.
+1. [x] Fork your own copy of the repl.
+2. [x] Double-check that you are signed in with your GitHub account.
 
 
 ## Planning
-3. [ ] Complete the planning document.
+3. [x] Complete the planning document.
    - [ ] Look over Inspiration and Ideas
    - [ ] Fill out the Brainstorm section.
    - [ ] Fill out the Song Data section.
