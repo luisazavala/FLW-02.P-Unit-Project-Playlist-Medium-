@@ -77,9 +77,25 @@ function displaySongInfo() {
 
 // task 8: loop through your images array and display the images to your songs in the correct div. Create three more loops. One for the song names, one for the artists, and a last one for the song links.
 
+//let action = ["Taken", "The Professional", "Ip Man"];
+//actionButton.onclick = function() {
+//for(let i=0; i<action.length; i++){actionRec.insertAdjacentHTML(`beforeend`, `<p>${action[i]}</p>`);
+//}
+//};
 
+  for(let i=0; i<imageList.length; i++){
+    imageList.insertAdjacentHTML(`beforeend`, `<p>${image}</p>`);
+  }
 
-}
+  for(let i=0; i<songNameList.length; i++){
+    songNameList.insertAdjacentHTML(`beforeend`, `<p>${songName}</p>`);
+  }
+
+  for(let i=0; i<artistList.length; i++){
+    artistList.insertAdjacentHTML(`beforeend`, `<p>${artist}</p>`);
+  }
+  
+};
 
 
 
