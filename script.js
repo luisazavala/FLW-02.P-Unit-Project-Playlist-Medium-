@@ -29,7 +29,7 @@ songNameList = ["I Saw Her Standing There(Remastered 2009)","Blitzkrieg Bop(2016
 
 artistList = ["The Beatles", "The Ramones", "Metallica", "Nirvana", "Sweet", "Green Day", "slowthai", "Bakar", "Metallica", "The Smashing Pumpkins"];
 
-songLinkList = [];
+songLinkList = ["https://www.youtube.com/watch?v=oxwAB3SECtc", "https://www.youtube.com/watch?v=skdE0KAFCEA", "https://www.youtube.com/watch?v=4DHmTY5sMss", "https://www.youtube.com/watch?v=mgB01new64Q", "https://www.youtube.com/watch?v=mPQPdYttl7U", "https://www.youtube.com/watch?v=0kXjKNBKGP0", "https://www.youtube.com/watch?v=wEmh32pQBDU", "https://www.youtube.com/watch?v=JeBpthQ3Zss", "https://www.youtube.com/watch?v=azCq5qQodU8", "https://www.youtube.com/watch?v=vDgUTnIyDtQ"];
 
 
 
@@ -55,6 +55,8 @@ function addSongInfo() {
 // task 9: declare a variable to save the user input of the image url. Declare three more variables that save user input: One for the song names, one for the artists, and a last one for the song links.
 
 
+
+  
 // task 10: use `.push()` to add each input value to the correct array.
 
 }
@@ -94,11 +96,13 @@ function displaySongInfo() {
   for(let i=0; i<artistList.length; i++){
     artistList.insertAdjacentHTML(`beforeend`, `<p>${artist}</p>`);
   }
-  
+
+  for(let i=0; i<songLinkList.length; i++){
+    songLinkList.insertAdjacentHTML(`beforeend`, `<p>${songLink}</p>`);
+  }
+
+  console.log("gotHere");
 };
-
-
-
 
 
 // click event to add and display songs
@@ -109,3 +113,11 @@ add.onclick = function() {
 
 // function call to display stored songs
 displaySongInfo();
+
+
+//let displaySong = document.querySelector(".display-song");
+//let displayArtist = document.querySelector(".display-artist");
+//let displayImage = document.querySelector(".display-image");
+//let displayLink = document.querySelector(".display-link");
+
+// add these on 89 and the rest bc they are not arrays but the for the purpose of display which is what we need
