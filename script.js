@@ -54,7 +54,13 @@ function addSongInfo() {
 
 // task 9: declare a variable to save the user input of the image url. Declare three more variables that save user input: One for the song names, one for the artists, and a last one for the song links.
 
-
+let saveUserInputURL;
+  
+let saveSongNames;
+  
+let saveArtistNames;
+  
+let saveSongLists;
 
   
 // task 10: use `.push()` to add each input value to the correct array.
@@ -86,15 +92,15 @@ function displaySongInfo() {
 //};
 
   for(let i=0; i<imageList.length; i++){
-    imageList.insertAdjacentHTML(`beforeend`, `<p>${image}</p>`);
+    displayImage.insertAdjacentHTML(`beforeend`, `<img src=${imageList[i]}>`);
   }
 
   for(let i=0; i<songNameList.length; i++){
-    songNameList.insertAdjacentHTML(`beforeend`, `<p>${songName}</p>`);
+    displaySong.insertAdjacentHTML(`beforeend`, `<p>${songName[i]}</p>`);
   }
 
   for(let i=0; i<artistList.length; i++){
-    artistList.insertAdjacentHTML(`beforeend`, `<p>${artist}</p>`);
+    displayArtist.insertAdjacentHTML(`beforeend`, `<p>${artist[i]}</p>`);
   }
 
   for(let i=0; i<songLinkList.length; i++){
